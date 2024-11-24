@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #EBE76C;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.name {
+    width: 40%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list p {
+    /* display: inline; */
+    margin-left: 2rem;
+}
+
+.nav-list p a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-list p a:hover {
+    text-decoration: underline;
+}
+
+.nav-list {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.b1 {
+    background-color: black;
+    width: 8rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.b1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* middle part */
+
+.middle-part {
+    background-color: #EBE76C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    margin: 4rem
+}
+
+.box div {
+    margin-top: 0.8rem;
+}
+
+.hello {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.student {
+    color: #836096;
+    font-size: 3rem;
+}
+
+.detail {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.b2 {
+    background-color: black;
+    width: 8rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.social {
+    display: flex;
+    font-size: 2.5rem;
+}
+
+.social a {
+    margin-right: 1.25rem;
+}
+
+/* for img */
+.img {
+    width: 100%;
+    margin-right: 3rem;
+}
+
+.himanshu {
+    width: 5rem;
+    
+
+}
+
+/* for nothing */
+
+.nothig {
+    background-color: #EBE76C;
+    width: 100%;
+    height: 100px;
+}
+
+/* for main part */
+
+.container {
+    background-color: white;
+    width: 90%;
+    /* height: 2222px; */
+    border: 2px solid black;
+    border-radius: 57px;
+    position: relative;
+    bottom: 75px;
+    margin-left: 4.7rem;
+}
+
+/* for education */
+
+.edu {
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.edu p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.edu hr {
+    width: 95%;
+}
+
+.edu table {
+    margin-top: 1rem;
+    width: 95%;
+}
+
+/* for skill&tools */
+
+.ski {
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.ski p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.skill hr {
+    width: 95%;
+    margin-left: 2rem;
+}
+
+.container1 {
+    /* display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows:  200px 200px; */
+    /* margin-top: 2rem; */
+    margin-left: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.c1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(purple 252deg, white 0deg);
+    margin: 4rem;
+}
+
+.c2 {
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+.c3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#219C90 306deg, white 0deg);
+    margin: 4rem;
+}
+
+.c5 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#D83F31 270deg, white 0deg);
+    margin: 4rem;
+}
+
+.c6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#EE9322 250deg, white 0deg);
+    margin: 4rem;
+}
+
+.c7 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#007580 216deg, white 0deg);
+    margin: 4rem;
+}
+
+.c8 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#0079FF 216deg, white 0deg);
+    margin: 4rem;
+}
+
+.c9 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#FF0060 288deg, white 0deg);
+    margin: 4rem;
+}
+
+.c10 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#A459D1 252deg, white 0deg);
+    margin: 4rem;
+}
+
+.c2 img {
+    width: 5rem;
+}
+
+
+/* for my projects */
+
+
+.myproject {
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.myproject p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.project hr {
+    width: 95%;
+    margin-left: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-top: 100px; */
+}
+
+.card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    margin: 2rem
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-contant {
+    padding: 16px;
+}
+
+.card-contant h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+
+.card-contant p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+/* for contact-me */
+
+.contact-me {
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.contact p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contact-me {
+    width: 95%;
+
+}
+
+.contact-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.conatct-left {
+    width: 60%;
+}
+
+.contact-right {
+    width: 40%;
+    border-left: 2px solid black;
+
+}
+
+/* .conatct-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.conatct-right{
+    
+    flex-basis: 40%;
+    padding: 10px ;
+} */
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 95%;
+    border: 1px solid black;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+
+}
+
+button {
+    background: black;
+    width: 10%;
+    border: none;
+    outline: none;
+    color: #ccc;
+    height: 35px;
+    border-bottom: 30px;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px 0px rgba(76, 76, 76, 0.3);
+}
+
+.conatct-left h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* .conatct-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 5rem;
+} */
+.contact-right table {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.contact-right table tr td {
+    width: 10rem;
+}
+
+.contact-right h3 {
+    margin-left: 1rem;
+}
+
+/* foe download cv */
+.wbox .download-cv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2rem;
+}
+
+
+/* for footer */
+.footer {
+    width: 100%;
+    background-color: black;
+
+
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+    width: 100%;
+    height: 4rem;
+
+}
+
+.list p {
+    margin-right: 2rem;
+
+}
+
+.list p a {
+    text-decoration: none;
+    color: white;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.link a {
+
+    margin-right: 1.5rem;
+}
+
+.link a p {
+    font-size: 2rem;
+
+}
+
+.copy .co {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+
+    color: white;
+}
